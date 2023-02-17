@@ -1,26 +1,30 @@
 h1 {
     color: white;
-    font-family: sans-serif
-  }
-  
-  p {
+    font-family: sans-serif;
+}
+
+p {
     color: white;
     font-family: sans-serif;
     font-weight: bold;
-  }
+}
 
-  body {
+body {
     background-color: black;
-  }
+}
 
 a {
-  text-align: center;
-  color: white;
-  font-family: sans-serif;
-  text-decoration: none;
-  font-size: large;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: large;
+    transition: 800ms;
+}
+a:hover {
+    color: blue;
 }
 
 br {
-  line-height: 33%;
+    line-height: 33%;
 }
