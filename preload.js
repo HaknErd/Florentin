@@ -6,3 +6,6 @@ function preloadLinks() {
         xhr.send();
     }
 }
+window.onload = function () {
+    preloadLinks();
+}; 
